@@ -15,7 +15,7 @@
 
 <br/><br/>
 
-<a href="https://sidharth1-github-io.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://portfolio-website-blush-phi-15.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/sidharthan-hariharasudhan-1222ab328"><img src="https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:sidharthhs2006@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/sidharth634"><img src="https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -32,31 +32,53 @@
 
 ## 🟣 About Me
 
-<div align="center">
-
-```yaml
-name: "H. Sidharthan"
-role: "Computer Science Engineering Student"
-focus: ["Python Development", "AI & Computer Vision", "Full Stack Engineering"]
-mindset: "Product-first, performance-obsessed, security-aware"
-```
-
-</div>
+<table>
+<tr>
+<td width="60%" valign="top">
 
 I'm a Computer Science Engineering student at **Easwari Engineering College**, building real-world software with a strong emphasis on **AI, Computer Vision, and Full Stack Development**. I specialize in translating research-grade AI concepts — object detection, agentic AI, and RAG pipelines — into deployable, production-ready applications.
 
 My engineering approach blends **clean architecture, scalable backend design, and a product engineering mindset**, focused on shipping software that solves real problems rather than just demoing them. I actively compete in hackathons, contribute to open-source-style personal projects, and continuously deepen my expertise across the AI/ML and cloud stack.
 
-**Open To:**
+<br/>
 
-<div align="center">
+**Open To:**
 
 <img src="https://img.shields.io/badge/AI%2FML%20Engineering-Internships-6D28D9?style=flat-square&labelColor=1a1a2e" />
 <img src="https://img.shields.io/badge/Full%20Stack%20Development-Roles-7C3AED?style=flat-square&labelColor=1a1a2e" />
 <img src="https://img.shields.io/badge/Open%20Source-Collaboration-A78BFA?style=flat-square&labelColor=1a1a2e" />
 <img src="https://img.shields.io/badge/Hackathons-Team%20Up-8B5CF6?style=flat-square&labelColor=1a1a2e" />
 
-</div>
+</td>
+<td width="40%" valign="top">
+
+```yaml
+profile:
+  name: "H. Sidharthan"
+  role: "Computer Science Engineering Student"
+  institution: "Easwari Engineering College"
+  batch: "2024 - 2028"
+  cgpa: 8.2
+
+  focus_areas:
+    - "Python Development"
+    - "AI & Computer Vision"
+    - "Full Stack Engineering"
+
+  mindset:
+    - "Product-first"
+    - "Performance-obsessed"
+    - "Security-aware"
+
+  stats:
+    projects_built: "5+"
+    hackathon_wins: 2
+    internships: 1
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -319,23 +341,43 @@ A virtual internship in collaboration with IBM SkillsBuild, AICTE, and 1M1B focu
 
 ## 🟣 Current Focus
 
+<table>
+<tr>
+<td>
+
 ```yaml
 current_focus:
   learning:
     - "Advanced Agentic AI systems & multi-agent orchestration"
     - "Retrieval-Augmented Generation (RAG) at production scale"
     - "System design for scalable full stack applications"
+
   building:
     - "AI-powered computer vision products with real-world deployment"
     - "End-to-end full stack apps with Python/Flask + React"
+
   exploring:
     - "Cloud-native AI deployment on AWS"
     - "Generative AI application design"
+
   open_to:
     - "AI/ML Engineering Internships"
     - "Full Stack Developer Roles"
     - "Open Source Collaboration"
 ```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Learning-Agentic%20AI%20%7C%20RAG%20%7C%20System%20Design-6D28D9?style=flat-square&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Building-AI%20Vision%20Products%20%7C%20Full%20Stack%20Apps-7C3AED?style=flat-square&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Exploring-Cloud%20AI%20%7C%20GenAI-A78BFA?style=flat-square&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Open%20To-Internships%20%7C%20Full%20Stack%20Roles-8B5CF6?style=flat-square&labelColor=1a1a2e" />
+
+</div>
 
 ---
 
@@ -346,7 +388,7 @@ current_focus:
 <a href="mailto:sidharthhs2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/sidharthan-hariharasudhan-1222ab328"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/sidharth634"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://sidharth1-github-io.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://portfolio-website-blush-phi-15.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 
 </div>
 
