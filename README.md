@@ -10,7 +10,7 @@
 
 <img src="https://img.shields.io/badge/B.E-Computer%20Science%20Engineering-6D28D9?style=flat-square&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/Easwari%20Engineering%20College-2024--2028-7C3AED?style=flat-square&labelColor=1a1a2e"/>
-<img src="https://img.shields.io/badge/📍-Chennai,%20Tamil%20Nadu,%20India-8B5CF6?style=flat-square&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/📍-Chennai,%20Tamil%20Nadu,%20India-8B5CF6?style=flat-square&labelColor=1a1a2e"/> 
 
 <br/><br/>
 
