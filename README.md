@@ -1,8 +1,96 @@
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=H.%20Sidharthan&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CS%20Engineer%20%C2%B7%20Python%20Developer%20%C2%B7%20AI%20%26%20Computer%20Vision%20Enthusiast&descAlignY=55&descSize=18" width="100%"/> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+AI-Powered+Applications;Computer+Vision+%7C+YOLOv8+%7C+OpenCV;Full+Stack+%7C+Python+%2B+React+%2B+Flask;Turning+Ideas+Into+Real-World+Software" alt="Typing SVG" /> </a> <br/> <img src="https://img.shields.io/badge/B.E-Computer%20Science%20Engineering-6D28D9?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/Easwari%20Engineering%20College-2024--2028-7C3AED?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/📍-Chennai,%20Tamil%20Nadu,%20India-8B5CF6?style=flat-square&labelColor=1a1a2e"/>
 
+Claude finished the response
+It's live now — your profile page is showing the README correctly, including the badges, About Me section, and Tech Stack icons rendering properly. 🎉
+
+A couple of small polish items you might want to fix later:
+
+The header image at the top is broken (shows a small broken-image icon above your badges) — that's the capsule-render banner URL. It's usually just a slow load; refresh once more to confirm it's not a dead link.
+LinkedIn and GitHub buttons look unstyled/small in this render compared to Portfolio and Email — that's likely just a temporary rendering hiccup, but worth checking after a refresh too.
+Otherwise this is working exactly as intended — nice work pushing through that.
+
+the about me and current focus working exactly as intended ?
+
+
+Verified first section; couldn't assess second due to viewport limitations
+Verified first section; couldn't assess second due to viewport limitations
+From what's visible in your screenshot, About Me is rendering exactly as intended — the YAML block has proper syntax highlighting, the paragraphs read cleanly, and the "Open To" callout box with bullets looks great.
+
+I can't confirm Current Focus though — the screenshot only scrolled down to the Tech Stack/Languages section, so that part wasn't visible yet. Two things worth checking when you scroll further:
+
+The Current Focus YAML block (learning:, building:, exploring:, open_to:) should render with the same syntax-highlighted code-block styling as the About Me YAML block above it — since it uses the identical ```yaml fence.
+Nested list items under each key (like the sub-bullets under learning:) can sometimes render oddly in GitHub's YAML block if indentation got altered during copy-paste — worth a quick visual check.
+Can you scroll down and share a screenshot of that section? I'll confirm it's rendering cleanly.
+
+no i mean the font and appearance it is too basic
+
+
+Devised visual enhancements using badges, tables, and emoji formatting
+Devised visual enhancements using badges, tables, and emoji formatting
+You're right — those two sections are just plain YAML code blocks, which look flat compared to the badges and tables elsewhere. GitHub markdown can't do custom fonts, but I can swap the plain code fences for badge-style pills and a styled table to match the rest of the page's visual language.
+
+
+Viewed 3 files, ran a command
+Viewed 3 files, ran a command
+Now let me redesign both — replacing the plain YAML blocks with styled tables and badge pills that match the rest of the page.
+
+
+Edited 2 files, ran a command, read a file
+Edited 2 files, ran a command, read a file
+Both sections now use tables and badge pills matching the rest of the page instead of plain code blocks — About Me has a focus-area/education split table with a quoted tagline, and Current Focus is a labeled table (Learning / Building / Exploring / Open To) with badges on the last row.
+
+To update it: open README.md in your sidharth634/sidharth634 repo, replace the whole content with this new version, and commit. GitHub markdown can't do custom fonts, but this should read much less "code dump" and more consistent with the rest of the design.
+
+
+Readme
+Document · MD 
+1785591406701_image.png
+how to change the github background black currently it is white
+
+
+Disambiguated GitHub theme settings versus README styling options
+Disambiguated GitHub theme settings versus README styling options
+That white background is GitHub's own site theme, not something controlled by your README — it changes based on your GitHub account's display setting.
+
+1
+Open GitHub Settings
+Click your profile picture in the top-right corner of any GitHub page, then click 'Settings' from the dropdown menu.
+2
+Go to Appearance
+In the left sidebar of Settings, click 'Appearance' (it's near the top, under the 'Public profile' section).
+3
+Select Dark theme
+Under 'Theme mode', choose 'Dark' (or 'Single theme' → Dark, depending on your account). You can also pick 'Dark dimmed' for a softer black. GitHub applies this instantly — no save button needed.
+4
+Revisit your profile
+Head back to github.com/sidharth634 — the whole page background (not just your README) will now be dark, and your purple/violet badges will pop against it exactly like the reference design intended.
+One important thing to know: this only changes it for you while you're logged in. Visitors who aren't logged into GitHub, or who have their own account set to light mode, will still see your profile on a white background — that's normal and expected, since GitHub doesn't let a README force the whole page theme for everyone.
+
+if i click portfolio button it should go to this website "https://portfolio-website-blush-phi-15.vercel.app/"
+
+
+Ran 2 commands, read a file
+Ran 2 commands, read a file
+Both Portfolio buttons (top header and footer Connect section) now point to https://portfolio-website-blush-phi-15.vercel.app/. Copy this content into your repo's README.md and commit to update it live.
+
+
+Readme
+Document · MD 
+
+Want to be notified when Claude responds?
+
+
+
+
+
+✨ Optimize Prompt
+Claude is AI and can make mistakes. Please double-check responses.
+
+
+Readme · MD
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=H.%20Sidharthan&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=CS%20Engineer%20%C2%B7%20Python%20Developer%20%C2%B7%20AI%20%26%20Computer%20Vision%20Enthusiast&descAlignY=55&descSize=18" width="100%"/> <a href="https://git.io/typing-svg"> <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+AI-Powered+Applications;Computer+Vision+%7C+YOLOv8+%7C+OpenCV;Full+Stack+%7C+Python+%2B+React+%2B+Flask;Turning+Ideas+Into+Real-World+Software" alt="Typing SVG" /> </a> <br/> <img src="https://img.shields.io/badge/B.E-Computer%20Science%20Engineering-6D28D9?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/Easwari%20Engineering%20College-2024--2028-7C3AED?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/📍-Chennai,%20Tamil%20Nadu,%20India-8B5CF6?style=flat-square&labelColor=1a1a2e"/>
 <br/><br/>
 
-<a href="https://sidharth1-github-io.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.linkedin.com/in/sidharthan-hariharasudhan-1222ab328"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e"/></a> <a href="mailto:sidharthhs2006@gmail.com"><img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://github.com/sidharth634"><img src="https://img.shields.io/badge/GitHub-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/></a>
+<a href="https://portfolio-website-blush-phi-15.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.linkedin.com/in/sidharthan-hariharasudhan-1222ab328"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e"/></a> <a href="mailto:sidharthhs2006@gmail.com"><img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://github.com/sidharth634"><img src="https://img.shields.io/badge/GitHub-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/></a>
 
 <br/><br/>
 
@@ -10,16 +98,13 @@
 🟣 About Me
 <div align="center"> <img src="https://img.shields.io/badge/Role-Computer%20Science%20Engineering%20Student-1a1a2e?style=for-the-badge&labelColor=6D28D9"/> <table> <tr> <td width="50%" valign="top">
 🧠 Focus Areas
-
 <img src="https://img.shields.io/badge/AI%20%26%20Machine%20Learning-6D28D9?style=flat-square&labelColor=1a1a2e"/><br/> <img src="https://img.shields.io/badge/Computer%20Vision-7C3AED?style=flat-square&labelColor=1a1a2e"/><br/> <img src="https://img.shields.io/badge/Full%20Stack%20Development-8B5CF6?style=flat-square&labelColor=1a1a2e"/>
 
 </td> <td width="50%" valign="top">
 🎓 Education
-
 B.E Computer Science Engineering <br/> Easwari Engineering College · 2024 – 2028 <br/> <img src="https://img.shields.io/badge/CGPA-8.2-A78BFA?style=flat-square&labelColor=1a1a2e"/>
 
 </td> </tr> </table> </div>
-
 "Engineering AI-powered software that solves real problems."
 
 I'm a Computer Science Engineering student building production-grade software at the intersection of AI, Computer Vision, and Full Stack Engineering. My work ranges from deep-learning detection systems deployed to the cloud, to motion-controlled game engines and gesture-driven web experiences — each one shipped, deployed, and demoed, not left as a prototype.
@@ -27,7 +112,6 @@ I'm a Computer Science Engineering student building production-grade software at
 I care about product-quality engineering: clean architecture, real deployments, and solving practical, high-impact problems — refined through hackathons, competitive events, and independent side projects.
 
 <table> <tr> <td>
-
 🎯 Open To
 
 AI / Machine Learning Internships
@@ -37,23 +121,18 @@ Open Source Collaboration
 </td> </tr> </table> <br/>
 🟣 Tech Stack
 <div align="center">
-
 Languages
 
 <img src="https://skillicons.dev/icons?i=python,java,js,html,css&theme=dark" />
-
 Frontend
 
 <img src="https://skillicons.dev/icons?i=react,vite,tailwind,nextjs&theme=dark" />
-
 Backend & Databases
 
 <img src="https://skillicons.dev/icons?i=flask,nodejs,mysql,sqlite,mongodb&theme=dark" />
-
 AI / Computer Vision
 
 <img src="https://skillicons.dev/icons?i=opencv,pytorch,tensorflow&theme=dark" />
-
 Cloud, DevOps & Tooling
 
 <img src="https://skillicons.dev/icons?i=aws,git,github,vscode,vercel,streamlit&theme=dark" /> </div> <br/>
@@ -68,7 +147,6 @@ Deployment of AI Systems	⭐⭐⭐⭐☆	Flask + YOLO inference APIs deployed on
 </div> <br/>
 🟣 Featured Projects
 <details> <summary><b>🔥 Fire Detection System — AI / Computer Vision</b></summary> <br/>
-
 Deep learning-based fire and smoke detection system built on YOLOv8, capable of detecting fire in images, videos, and live webcam streams with high accuracy. Backend serves inference through a Flask API; frontend is a lightweight browser client.
 
 Aspect	Details
@@ -78,13 +156,11 @@ Performance	Tuned inference pipeline (timeout & capture-interval calibrated for 
 Security	Backend/frontend separation with controlled API access
 Impact	Deployable early-warning fire detection for safety-critical monitoring
 Repository	github.com/sidharth634/New-Fire-Detection-System
-
 Deployed as a decoupled architecture — Flask + YOLO backend on Render, static frontend on GitHub Pages — with debugging across dependency builds, CPU-only PyTorch configuration, and network-timeout tuning to make cloud inference production-reliable.
 
 Live Demo: sidharth634.github.io/New-Fire-Detection-System
 
 </details> <details> <summary><b>🎮 Motion Fruit Ninja — Game Development</b></summary> <br/>
-
 A motion-controlled desktop game where a smartphone becomes a wireless motion controller, built on Electron and Three.js with real-time WebSocket communication for gesture input, fruit-slicing physics, visual effects, and score tracking.
 
 Aspect	Details
@@ -94,13 +170,11 @@ Performance	Iteratively refined fruit physics and rendering across multiple vers
 Security	Local WebSocket-based device pairing
 Impact	Demonstrates cross-device real-time interaction engineering
 Repository	github.com/sidharth634/Motion-Fruit-Ninja
-
 Developed under a strict phase-gated, incremental development discipline, with an in-progress Rapier physics engine integration as a parallel enhancement track.
 
 Live Demo: Prototype v2.0 Release
 
 </details> <details> <summary><b>💧 AquaGuard — AI / Data Science</b></summary> <br/>
-
 An AI-powered smart water quality analyzer that evaluates water parameters, predicts safety scores, visualizes historical trends, and produces explainable AI recommendations.
 
 Aspect	Details
@@ -110,11 +184,9 @@ Performance	Trained ML safety-scoring model with interactive visualization layer
 Security	Local SQLite persistence for analysis history
 Impact	Accessible, explainable water-safety insights for non-technical users
 Repository	github.com/sidharth634/AquaGuard
-
 Live Demo: aquaguard app
 
 </details> <details> <summary><b>🧩 Lensora — Interactive Puzzle Studio — AI / Computer Vision</b></summary> <br/>
-
 A state-of-the-art, web-based sliding puzzle game driven entirely by real-time computer vision and hand-gesture recognition — no controller, just your hands.
 
 Aspect	Details
@@ -124,11 +196,9 @@ Performance	Low-latency hand-tracking loop synced to canvas rendering
 Security	Fully client-side — no data leaves the browser
 Impact	Showcases gesture-native UX as a viable browser-native interaction model
 Repository	github.com/sidharth634/Lensora-Interactive-Puzzle-Studio
-
 Live Demo: lensora-interactive-puzzle-studio.vercel.app
 
 </details> <details> <summary><b>🎬 Movie Ticket Booking System — Desktop App</b></summary> <br/>
-
 A full-featured Java Swing desktop application for movie ticket booking with seat selection, user authentication, booking history, payment handling, and SQLite-backed persistence.
 
 Aspect	Details
@@ -138,12 +208,10 @@ Performance	Synchronous local DB transactions for booking integrity
 Security	User authentication and session-based booking flow
 Impact	End-to-end simulation of a real-world ticketing platform
 Repository	github.com/sidharth634/BookMyShowDeluxe
-
 Live Demo: Releases
 
 </details> <br/>
 🟣 Experience
-
 AI for Sustainability Virtual Internship — IBM SkillsBuild · AICTE · 1M1B Completed
 
 A collaborative virtual internship focused on applying AI to sustainability challenges aligned with the UN Sustainable Development Goals (SDGs).
@@ -152,7 +220,6 @@ Gained hands-on experience with Agentic AI and Retrieval-Augmented Generation (R
 Practiced Responsible AI principles in real-world solution design
 Built AI-driven sustainability solutions mapped to UN SDGs
 Developed structured problem-solving workflows for applied AI use cases
-
 Agentic AI RAG Responsible AI AI Sustainability UN SDGs IBM SkillsBuild
 
 <br/>
@@ -164,7 +231,6 @@ Recognition	Details
 🥇 First Prize — Project Arena	PRAZYOTEAV'26, Easwari Engineering College (IETE ISF) · Team innovation & technical showcase
 </div> <br/>
 🟣 Certifications
-
 AWS <br/> <img src="https://img.shields.io/badge/AWS%20Certified%20Cloud%20Practitioner-232F3E?style=flat-square&logo=amazon-aws&logoColor=white&labelColor=1a1a2e"/>
 
 NPTEL (IIT) <br/> <img src="https://img.shields.io/badge/Industrial%20IoT-Elite-6D28D9?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/Human--Computer%20Interactions-Elite-7C3AED?style=flat-square&labelColor=1a1a2e"/>
@@ -176,7 +242,6 @@ Programming <br/> <img src="https://img.shields.io/badge/Core%20Java%20Programmi
 <br/>
 🟣 Coding Profiles
 <div align="center">
-
 <a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-6D28D9?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.geeksforgeeks.org/"><img src="https://img.shields.io/badge/GeeksforGeeks-7C3AED?style=for-the-badge&logo=geeksforgeeks&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.hackerrank.com/"><img src="https://img.shields.io/badge/HackerRank-8B5CF6?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.codechef.com/"><img src="https://img.shields.io/badge/CodeChef-A78BFA?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1a2e"/></a>
 
 </div> <br/>
@@ -190,25 +255,21 @@ Programming <br/> <img src="https://img.shields.io/badge/Core%20Java%20Programmi
 <div align="center"> <img src="https://raw.githubusercontent.com/sidharth634/sidharth634/output/github-contribution-grid-snake-dark.svg"/> </div> <br/>
 🟣 Current Focus
 <div align="center"> <table> <tr> <th align="left" width="25%">📚 Learning</th> <td>
-
 Advanced Computer Vision & Real-Time Inference Optimization<br/> Agentic AI Systems & Retrieval-Augmented Generation<br/> System Design for Scalable AI Backends
 
 </td> </tr> <tr> <th align="left">🛠️ Building</th> <td>
-
 Motion Fruit Ninja — Rapier physics engine integration<br/> Slow Roads Lite Vita — PS Vita homebrew port (VitaSDK / vitaGL / SDL2)<br/> Personal AI-powered portfolio & tooling
 
 </td> </tr> <tr> <th align="left">🔭 Exploring</th> <td>
-
 Handheld / embedded graphics programming (ARM Cortex-A9, PowerVR GPU)<br/> Cloud-native deployment patterns for ML inference APIs
 
 </td> </tr> <tr> <th align="left">🎯 Open To</th> <td> <img src="https://img.shields.io/badge/AI%20%2F%20ML%20Internships-6D28D9?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/Computer%20Vision%20Roles-7C3AED?style=flat-square&labelColor=1a1a2e"/> <img src="https://img.shields.io/badge/Full%20Stack%20Opportunities-8B5CF6?style=flat-square&labelColor=1a1a2e"/> </td> </tr> </table> </div> <br/>
 🟣 Connect
 <div align="center">
-
-<a href="mailto:sidharthhs2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.linkedin.com/in/sidharthan-hariharasudhan-1222ab328"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://github.com/sidharth634"><img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://sidharth1-github-io.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a2e"/></a>
+<a href="mailto:sidharthhs2006@gmail.com"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://www.linkedin.com/in/sidharthan-hariharasudhan-1222ab328"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://github.com/sidharth634"><img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/></a> <a href="https://portfolio-website-blush-phi-15.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a2e"/></a>
 
 </div> <br/> <div align="center">
-
 "Engineering AI-powered software that makes a real difference."
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" width="100%"/> </div>
+
