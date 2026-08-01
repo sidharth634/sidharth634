@@ -32,10 +32,11 @@
 
 ## 🟣 About Me
 
-I'm a Computer Science Engineering student at **Easwari Engineering College**, building real-world software with a strong emphasis on **AI, Computer Vision, and Full Stack Development**. I specialize in translating research-grade AI concepts — object detection, agentic AI, and RAG pipelines — into deployable, production-ready applications.
+I'm Sidharthan, a Computer Science Engineering student at Easwari Engineering College, engineering real-world software at the intersection of Artificial Intelligence, Computer Vision, and Full Stack Development. My work centers on taking research-grade AI concepts — object detection, agentic AI systems, and Retrieval-Augmented Generation (RAG) pipelines — and turning them into deployable, production-ready applications that solve tangible problems.
 
-My engineering approach blends **clean architecture, scalable backend design, and a product engineering mindset**, focused on shipping software that solves real problems rather than just demoing them. I actively compete in hackathons and continuously deepen my expertise across the AI/ML and cloud stack.
+I approach engineering with a product-first mindset: clean, scalable architecture on the backend, thoughtful UX on the frontend, and a relentless focus on performance and security at every layer. Rather than building demos, I build systems designed to work under real constraints — real data, real users, real edge cases.
 
+Beyond the codebase, I actively compete in hackathons to sharpen my problem-solving under pressure, and I continuously push my expertise deeper across the AI/ML, full stack, and cloud engineering stack — always with an eye toward what's production-relevant, not just what's trending.
 <div align="center">
 
 <table>
